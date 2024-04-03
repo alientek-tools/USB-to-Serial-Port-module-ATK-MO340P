@@ -35,7 +35,25 @@
 | TXD          | TTL mode data sending pin (connected to RXD of external device)         |                             |
 | RTS          | Request send pin, the RTS pin of CH340E                                 |                             |
 
+### 1.4 Driver Installation
 
+ATK-MO340P module can select mode and output voltage without any flying wires.You must install the module driver to use it. The driver is available in [drivers](./drivers) folder we have four drivers are provided for your use.
+
+Let's take the example of installing Windows drivers. First double-click **CH341SER.EXE**, enter the driver installation interface, and select INF file (1/1) by default: **CH341SER.INF**, and finally click Install.
+
+<img src="./figures/install.png" width="550">
+
+After successful installation, it will prompt **Driver install success!**, so that the driver of the module is completed, as shown in the figure below:
+
+<img src="./figures/success.png" width="550">
+
+If you are prompted with **The drive is successfully Pre-installed in advance!**, the driver may or may not have been installed. If the COM port is not found in the ``Device Manager`` of the computer, then proceed according to the method in the [Installation_failure_solution](./Installation_failure_solution.md) .
+
+<img src="./figures/Pre-install.png" width="550">
+
+After the driver is installed, use USB Type-C cable to connect the computer and the module, which can be accessed from the ``Device Manager`` of the computer. Find the ``USB-SERIAL CH340 COM port`` corresponding to the category of "Device Manager -> Port (COM and LPT)", as shown below.
+
+<img src="./figures/device-manager.png" width="300">
 
 
 ## 2 Size
