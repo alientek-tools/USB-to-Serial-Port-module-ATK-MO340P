@@ -45,13 +45,13 @@ Let's take the example of installing Windows drivers. First double-click **CH341
 
 After successful installation, it will prompt **Driver install success!**, so that the driver of the module is completed, as shown in the figure below:
 
-<img src="./figures/success.png" width="550">
+<img src="./figures/success.png">
 
 If you are prompted with **The drive is successfully Pre-installed in advance!**, the driver may or may not have been installed. If the COM port is not found in the ``Device Manager`` of the computer, then proceed according to the method in the [Installation_failure_solution](./Installation_failure_solution.md) .
 
 <img src="./figures/Pre-install.png" width="550">
 
-After the driver is installed, use USB Type-C cable to connect the computer and the module, which can be accessed from the ``Device Manager`` of the computer. Find the ``USB-SERIAL CH340 COM port`` corresponding to the category of "Device Manager -> Port (COM and LPT)", as shown below.
+After the driver is installed, use USB Type-C cable to connect the computer and the module, which can be accessed from the ``Device Manager`` of the computer. Find the ``USB-SERIAL CH340 COM port`` corresponding to the category of "Device Manager -> Ports (COM and LPT)", as shown below.
 
 <img src="./figures/device-manager.png" width="300">
 
