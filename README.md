@@ -2,6 +2,7 @@
 
 ### 1.1 Appearence
 放外观图
+
 <img src="./figures/USB.png">
 
 ### 1.2 Parameter
@@ -10,8 +11,8 @@
 | Interface Type            | Standard USB Type-C port, supporting dual plug     |
 | Communication Interface   | Supports TTL and RS485 levels                      |
 | Supply Voltage            | 5V(USB power supply)                               |
-| Control Interface         | RTS(Output control), CTS(Input control)            |
-| Output Voltage            | 1.8V/3.3V/5V (I<sub>out(max)</sub> =300mA)         |
+| Control Interface         | RTS (Output control), CTS (Input control)            |
+| Output Voltage            | 1.8V/3.3V/5V    (I<sub>out(max)</sub> =300mA)         |
 | Compatibility             | Windows/Linux/MAC/Android                          |
 | Baudrate                  | TTL:  50bps~2Mbps <br>RS485: 250kbps               |
 | Operating Temperature     | -20℃ ~ 70℃                                       |
