@@ -45,7 +45,7 @@ Let's take the example of installing Windows drivers. First double-click **CH341
 
 After successful installation, it will prompt **Driver install success!**, so that the driver of the module is completed, as shown in the figure below:
 
-<img src="./figures/success.png">
+<img src="./figures/success.png" width="550">
 
 If you are prompted with **The drive is successfully Pre-installed in advance!**, the driver may or may not have been installed. If the COM port is not found in the ``Device Manager`` of the computer, then proceed according to the method in the [Installation_failure_solution](./Installation_failure_solution.md) .
 
